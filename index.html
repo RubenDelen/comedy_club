@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted id="bgvid">
+        <source src="images/bgvid2.mp4" type="video/mp4">
+    </video>
+    <header>
+        <a href="index.html">
+            <img src="images/Logowit.svg" height="100px" width="100px" alt="">
+        </a>
+        <nav>
+            <ul class="unstyled">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div id="mobile-menu-container">
+        <ul class="unstyled">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section id="hero">
+        <hgroup>
+            <h1>Movies are our passion</h1>
+            <h3>Wij zijn een filmclub uit Mechelen, met wekelijkse vertoningen van de beste films.</h3>
+        </hgroup>
+        <ul class="social unstyled">
+            <li><a href="#">FB</a></li>
+            <li><a href="#">IG</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">YT</a></li>
+        </ul>
+        <div id="icon-scroll-down">
+            <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 19V1M9.5 15L5.5 19L9.5 15ZM5.5 19L1.5 15L5.5 19Z" stroke="#fdc53a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </section>
+    <main id="gallery">
+        <div class="quote">
+            <blockquote>
+                &quot;Van dichtbij gezien is het leven een tragedie, van op afstand een komedie.&quot;
+                <cite>- Charlie Chaplin</cite>
+            </blockquote>
+            <button class="link-button">
+                My Work
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#fdc53a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/big_lebowski.jpg" alt="big_lebowski">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Ethan Coen & Joel Coen  (29/01)</h6>
+                <h4>The Big Lebowski</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/MON_ONCLE.png" alt="mon_oncle">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Jacques Tati (26/02)</h6>
+                <h4>Mon oncle</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/team_america.jpg" alt="team_america">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Trey Parker (25/03)</h6>
+                <h4>Team America: World Police</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/truman_show.jpg" alt="truman_show">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Peter Weir (29/04)</h6>
+                <h4>The Truman Show</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/clerks.jpg" alt="clerks">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>Kevin Smith (27/05)</h6>
+                <h4>Clerks</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/PHILIPPE.png" alt="philipe">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>comedian </h6>
+                <h4>Philippe Geubels</h4>
+            </hgroup>
+        </div>
+        <div class="gallery--item">
+            <a href="#">
+                <figure>
+                    <img src="images/SOE.png" alt="soe">
+                </figure>
+            </a>
+            <hgroup>
+                <h6>comedian</h6>
+                <h4>Soe Nsuki</h4>
+            </hgroup>
+        </div>
+    </main>
+    <footer>
+        <hgroup>
+            <h2>Life is like a box of chocolates. You never know what you're gonna get</h2>
+        </hgroup>
+        <button class="link-button">
+            Get in touch
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 12H3M17 8L21 12L17 8ZM21 12L17 16L21 12Z" stroke="#fdc53a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </button>
+        <section id="signIn">
+        	 <div class="form">
+      <div class="title">Welkom</div>
+      <div class="subtitle">Maak een account</div>
+      <div class="input-container ic1">
+        <input id="firstname" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="firstname" class="placeholder">Voornaam</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="lastname" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="lastname" class="placeholder">Achternaam</label>
+      </div>
+      <div class="input-container ic2">
+        <input id="email" class="input" type="text" placeholder=" " />
+        <div class="cut cut-short"></div>
+        <label for="email" class="placeholder">Email</label>
+      </div>
+      <button type="text" class="submit">doorsturen</button>
+    </div>
+        </section>
+        <ul class="social unstyled">
+            <li><a href="#">FB</a></li>
+            <li><a href="#">IG</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">YT</a></li>
+        </ul>
+        <p>&copy; 2024 Fanta Fantastico. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
